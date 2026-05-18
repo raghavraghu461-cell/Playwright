@@ -7,6 +7,6 @@ var x =10;
 var x=20;
 x=30;
 console.log(x);
-// prints 20 because the variable x is 
+// prints 30 as x is re decleared
 
 
