@@ -3,7 +3,7 @@
      let Raghav_Age=27;
 
     let result = Raghav_Age > 19
-        ? (Raghav_Age > 21 ? (Raghav_Age>27? " Super Drink allowed" : "Not allowed"): "No Super Drink")
+        ? (Raghav_Age > 21 ?"Drink": "No Super Drink")
         : "No Goa";
 
     console.log(result);
