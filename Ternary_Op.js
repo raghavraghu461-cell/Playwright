@@ -1,9 +1,9 @@
  function goa()
  {
-     let Raghav_Age=22;
+     let Raghav_Age=27;
 
     let result = Raghav_Age > 19
-        ? (Raghav_Age > 21 ? "Drink allowed" : "Not allowed")
+        ? (Raghav_Age > 21 ? (Raghav_Age>27? " Super Drink allowed" : "Not allowed"): "No Super Drink")
         : "No Goa";
 
     console.log(result);
@@ -20,6 +20,8 @@ function type()
 }
 
 type();
+
+//
 
 
 

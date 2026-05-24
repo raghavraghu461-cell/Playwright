@@ -1,0 +1,10 @@
+{
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.snippetSuggestions": "none",
+    "editor.suggest.selectionMode": "never",
+    "editor.suggest.showConstants": false,
+    "editor.suggest.showColors": false,
+    "editor.suggest.showConstructors": false,
+    "editor.suggest.showCustomcolors": true
+}
