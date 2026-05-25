@@ -1,0 +1,26 @@
+//Equilateral triangle – has three equal sides (and three equal angles);
+//Isosceles triangle – has two equal sides; and
+//Scalene triangle – has no equal sides.
+
+
+function triangle_cassifier()
+{
+    let a=12
+    let b=12
+    let c=13
+
+    if((a===b)||(a===c) && (b!==c))
+    {
+        console.log("Isoceles triangele");
+    }
+    else if((a===b)&&(a===c))
+    {
+        console.log("Equilateral Triangle");
+    }
+    else if((a!==b)&&(a!==c)&& (b!==c))
+    {
+        console.log("Scalene Triangle")
+    }
+}
+
+triangle_cassifier();
