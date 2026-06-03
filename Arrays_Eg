@@ -1,0 +1,92 @@
+//decaration
+let arr=[1,2,3,4,5,6];
+
+//accessing array
+console.log(arr[1]);
+
+//add an ele,element to array at begining
+
+arr.unshift(7);
+
+console.log(arr);
+//add element to array at end
+arr.push(8);
+
+console.log(arr);
+
+// remove first element from begining
+
+arr.shift();
+console.log(arr);
+
+//remove last element from end
+
+arr.pop();
+console.log(arr);
+
+//push multiple elements at end
+arr.push(7,8,9);
+console.log(arr);
+
+//insert elements in middle of array ad removes existing elements
+ arr.splice(1,2,11,12)
+ console.log(arr);
+
+ //search for element index in an array
+ let x= arr.indexOf(9);
+ console.log(x);
+
+ //remove element from array
+	arr.splice(1,2);
+	console.log(arr);
+
+	//insert elemets in middle of an array
+	arr.splice(1,0,2,3);
+	console.log(arr);
+
+	// search elemenet and retun boolen value based on element present
+	let y=arr.includes(10);
+	console.log(y);
+
+	//get the first matching element  returns undefined based on the condition
+console.log(arr.find(a=> a>1));
+
+//return the last matching index satisfies the condition
+console.log('====');
+
+
+console.log(arr.findLastIndex((b=>b>7)));
+
+//return the last value that matches the codition
+console.log(arr.findLast(c => c>9));
+
+//map : transform every element and return new array based on the condition
+
+console.log(arr.map(a => a<3?(a%2===0? "Pass": "fail"): "Super"));
+
+//filter : filter the records based  on the condition and retun the array of elements which satisfy the
+//condition
+
+console.log(arr.filter(d => d%2===0));
+
+scores = [70,20,45,67,89];
+
+//reduce : will return the sum of the array
+
+let total=scores.reduce((a,b)=>a+b,0);
+console.log(total);
+
+//flat == flatten the nested array and create new array
+
+flatarr= [[1,2],[3,4]];
+
+let ak=flatarr.flat();
+console.log(ak);
+
+
+
+
+
+
+
+

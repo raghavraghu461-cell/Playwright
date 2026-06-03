@@ -1,0 +1,7 @@
+function nullishOp()
+{
+    let x=null;
+    let result=x??10;
+    console.log(result);
+}
+nullishOp();
